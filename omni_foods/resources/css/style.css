@@ -57,6 +57,7 @@ header{
     text-decoration: none;
     border-radius: 100px;
     border: 1px solid #e67e22;
+    transition: background-color .2s, border 0.2s, color 0.2s;
 }
 
 .btn-full:link,
