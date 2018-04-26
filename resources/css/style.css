@@ -200,3 +200,52 @@ header{
 .main-nav li a:active{
     border-bottom: 2px solid #e67e22;
 }
+
+/* -------------------------------------------------------- */
+/* FEATURES
+/* -------------------------------------------------------- */
+
+.features .long-copy{
+    margin-bottom: 30px;
+}
+
+/* -------------------------------------------------------- */
+/* MEALS SHOWCASE
+/* -------------------------------------------------------- */
+
+section.meals-showcase{
+    padding: 0;
+}
+
+.meals-showcase{
+    width: 100%;
+}
+
+.meals-showcase ul{
+    width: 100%;
+    margin: 0;
+}
+
+.meals-showcase ul li{
+    display: block;
+    float:left;
+    width: 25%;
+}
+
+.meals-showcase ul li figure{
+    background-color: #000;
+    margin: 0;
+    overflow: hidden;
+}
+
+.meals-showcase ul li img{
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s, opacity 0.5s;
+    opacity: 0.5;
+}
+
+.meals-showcase ul li img:hover{
+    transform: scale(1.15);
+    opacity: 1;  
+}
