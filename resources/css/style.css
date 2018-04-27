@@ -67,6 +67,16 @@ section{
     display: block;
 }
 
+.icon-small{
+    color: #e67e22;
+    font-size: 120%;
+    display: inline-block;
+    line-height: 120%;  
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
 /* ----- HEADINGS ----- */
 
 
@@ -116,6 +126,21 @@ h3{
     width: 70%;
     margin-left: 15%;
     text-align: center;
+}
+
+/* ----- LINKS ----- */
+a:link,
+a:visited{
+    color: #e67e22;
+    text-decoration: none;
+    border-bottom: 1px solid #e67e22;
+    transition: border 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active{
+    color: #555;
+    border-bottom: 1px solid transparent;
 }
 
 /* ----- BUTTONS ----- */
@@ -265,10 +290,6 @@ section.how_it_works{
     padding: 80 0;
 }
 
-.steps-box{
-    
-}
-
 .steps-box img{
     width:40%;
     height: auto;
@@ -309,3 +330,24 @@ section.how_it_works{
     width: auto;
     margin-right: 10px;
 }
+
+/* -------------------------------------------------------- */
+/* CITIES
+/* -------------------------------------------------------- */
+
+section.cities{
+    background-color: rgba(240, 240, 240, 0.938);
+}
+
+.box img{
+    width: 100%;
+    margin-bottom: 15px;
+    height: auto;
+}
+
+.city-feature{
+    margin-bottom: 5px;
+}
+
+
+
