@@ -1,0 +1,57 @@
+/* large desktop  1025px to 1200px */
+@media only screen and (max-width: 1200px) {
+    .row{ padding: 0 2%;}
+    .footer-nav li,
+    .social-links li{
+        margin-right: 19px;
+    }
+}
+
+
+/* big tablet 769px to 1024px */
+@media only screen and (max-width: 1024px) {
+    body{ font-size: 18px; }
+    section{ padding: 60px 0;}
+    .long-copy{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .steps-box:last-child{ margin-top: 30px; }
+    .steps-box img{ width:46%; }
+    .works-step{ margin-bottom: 20px; }
+    
+    .icon-small{ margin-right: 2px; }   
+    .city-feature{ font-size: 90%; }
+    .box h3{ font-size: 118%; }
+
+    .section-plans .row:last-child .col{ padding: 0 5px; }
+    .plan-box{ 
+        width: 100%;
+        margin-left: 0%;
+     }
+     .plan-box  div{ padding: 10px; }
+     .plan-box div:nth-child(2){ font-size: 97%; }
+     
+     .contact-form{ width: 80%; }
+     
+     .footer{ padding: 40px 8px; }
+
+}
+
+
+/* small tablet 481px to 768px */
+@media only screen and (max-width: 768px) {
+    body{ font-size: 16px; }
+    section{ padding: 30px 0px; }
+    .hero-text-box{ white-space: initial; 
+    }
+    body{ background: red; }
+
+
+}
+
+
+/* mobile 0px to 480px */
+@media only screen and (max-width: 480px) {
+    body{ background: green; }
+}

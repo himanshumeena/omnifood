@@ -2,21 +2,23 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
     <link rel="stylesheet" href="./resources/css/style.css">
     <link rel="stylesheet" href="./vendors/css/normalize.css">
     <link rel="stylesheet" href="./vendors/css/ionicons.min.css">
+    <link rel="stylesheet" href="./resources/css/queries.css">
     <title>omni foods</title>
 </head>
 
 <body>
     <div class="container">
         <header>
-            <div class="row" style="position:relative">
+            <div class="row">
                 <img class="logo" src="./resources/img/logo-white.png" alt="Omnifood logo">
-                <ul class="main-nav">
+                <ul class="main-nav ml-auto">
                     <li>
                         <a href="">Food delivery</a>
                     </li>
@@ -31,11 +33,12 @@
                     </li>
                 </ul>
             </div>
-            <div class="hero-text-box">
-                <h1>Goodbye junk food.
-                    <br>Hello super healthy meals.</h1>
-                <a class="btn btn-full" href="#">I'm hungry</a>
-                <a class="btn btn-ghost" href="#">Show me more</a>
+            <div class="hero-text-box ">
+                    <h1>Goodbye junk food.
+                        <br>Hello super healthy meals.</h1>
+                    <br>
+                    <a class="btn btn-full" href="#">I'm hungry</a>
+                    <a class="btn btn-ghost" href="#">Show me more</a>
             </div>
         </header>
         <section class="features">
@@ -138,6 +141,7 @@
                         <div>3</div>
                         <p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
                     </div>
+                    <div class="clearfix"></div>
                     <a href="#" class="btn-app">
                         <img src="./resources/img/download-app-android.png" alt="download andriod app">
                     </a>
@@ -351,10 +355,10 @@
         <div class="row">
             <form action="#" class="contact-form">
                 <div class="row">
-                    <div class="col sm-4">
+                    <div class="col sm-4 md-4">
                         <label for="name">Name</label>
                     </div>
-                    <div class="col sm-8">
+                    <div class="col sm-8 md-8">
                         <input type="text" id="name" name="name" placeholder="Your Name" required>
                     </div>
                 </div>
@@ -408,7 +412,7 @@
     </section>
     <footer class="footer">
         <div class="row">
-            <div class="col sm-6">
+            <div class="col col-sm-7">
                 <ul class="footer-nav">
                     <li>
                         <a href="#">About us</a>
@@ -427,7 +431,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col sm-6">
+            <div class="col col-sm-5">
                 <ul class="social-links">
                     <li>
                         <a href="#">
@@ -458,4 +462,5 @@
     </footer>
     </div>
 </body>
+
 </html>
