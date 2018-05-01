@@ -77,4 +77,9 @@
     .main-nav{ display: none; }
     section{ padding: 25px 0;}
     .contact-form{ width: 100%; }
+    .meals-showcase ul li{
+        display: block;
+        float:left;
+        width: 50%;
+    }
 }
