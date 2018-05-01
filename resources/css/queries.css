@@ -49,7 +49,8 @@
     .hero-text-box{ padding: 0 4%; }
     .row{ padding: 0 4%; }
     .col{ width: 100%;
-        flex-basis: initial;
+        -ms-flex-preferred-size: initial;
+            flex-basis: initial;
     }
     .long-copy{
         width: 90%;
